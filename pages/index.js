@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Heebo } from '@next/font/google'
-import User from '@/components/User'
-import HomeStyle from '@/styles/home.module.scss'
 
 
 export default function Home() {
@@ -15,11 +13,9 @@ export default function Home() {
         <link rel="icon" href="" />
       </Head>
 
+      <div>
 
-      <div className={HomeStyle.home}>
-        <User />
       </div>
-
     </>
   )
 }
